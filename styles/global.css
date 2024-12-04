@@ -9,9 +9,9 @@
   --font-primary: 'Open Sans', sans-serif;
   --font-secondary: 'Baloo 2', sans-serif;
 
-  --text-logo: 400 2.5rem/4.0 var(--font-logo);
+  --text-logo: 700 2.5rem/4.0 var(--font-logo);
   --text-md: 700 1.75rem/2.8 var(--font-secondary);
-  --text-sm: 700 1.125rem/1.8 var(--font-secondary);
+  --text-sm: 400 1.125rem/1.8 var(--font-secondary);
   --body-md: 500 1rem/1.6 var(--font-primary);
   --body-sm: 500 0.875rem/1.4 var(--font-primary);
   --body-xs: 500 0.75rem/1.2 var(--font-primary);
@@ -42,6 +42,11 @@
   --shape-hover: #383D42;
 
   --text-body: #C8CDD0;
-  --text-heading: #F9F9F9;
-  
+  --text-heading: #F9F9F9;  
+}
+
+body {
+  overflow: hidden;
+  color: var(--text-body);
+  background-color: var(--shape-background);
 }
