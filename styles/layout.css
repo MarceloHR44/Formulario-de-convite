@@ -39,7 +39,7 @@ aside {
   }
 
   & .bg-image {
-    background-image: url(../assets/bolo.svg);
+    background-image: url(../assets/images/bolo.svg);
     border-radius: 0.75rem;
     width: 25rem;
     height: 97vh;
