@@ -40,3 +40,9 @@ input {
     display: none;
   }
 }
+
+.input-groups :focus {
+  border: 1px solid var(--brand-light);
+  outline: none;
+}
+

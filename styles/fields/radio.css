@@ -117,7 +117,7 @@
     justify-content: center;
     background-color: #2d3136;
     text-align: center;
-    position: relative;
+    position: relative;    
 
     & img {
       display: grid;
