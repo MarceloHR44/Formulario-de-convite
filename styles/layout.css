@@ -1,55 +1,61 @@
 #app {
   display: grid;
-  grid-template-columns: 34.38% 65.62%;
+  grid-template-columns: 40% 50%;
   height: 100vh;
   overflow: hidden;
-  background: var(--shape-background);
   gap: 1.25rem;
-  padding: 1.25rem;
 }
 
 main {
   overflow: auto;
-  background-color: var(--shape-bady);
-  border-radius: 0.75rem;
-  padding: 80px 0;
-
+  
   & .main-container {
-    max-width: 36rem;
-    margin: auto;
+    background-color: var(--shape-bady);
+    border-radius: 0.75rem;
+    width: 50rem;
+    height: 130.6rem;
+    margin-top: 1.25;
 
     & h1 {
-      font: var(--text-md);
-      color: var(--text-heading);
+      margin-bottom: 2.5rem;
     }
   }
 }
 
 aside {
-  background-image: url(../assets/bolo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  header {
+    margin: 2rem;
 
-  border-radius: 0.75rem;
+    & img {
+      width: 2.81rem;
+      height: 2.81rem;
+      margin-bottom: 1rem;
+    }
+  }
 
   & .aside-container {
-    padding: 2rem;
+    display: flex;
+    justify-content: end;
   }
 
-  & img {
-    width: 2.866rem;
-    height: auto;
+  & .bg-image {
+    background-image: url(../assets/bolo.svg);
+    border-radius: 0.75rem;
+    width: 25rem;
+    height: 97vh;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin-block: 1.25rem;
   }
 
-  & h1 {
-    padding-top: 1rem;
+  h1 {
     font: var(--text-logo);
     color: var(--pink);
   }
 
-  & p {
-    padding-top: 0.25rem;
-    font: var(--text-sm);
+  p {
+    margin-top: 0.25rem;
+    font: var(--body-xs);
   }
 }

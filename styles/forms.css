@@ -1,0 +1,27 @@
+form {
+  margin-top: 5rem;
+}
+
+fieldset {
+  border: none;
+
+  display: grid;
+  gap: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+legend {
+  font: var(--body-sm);
+}
+
+fieldset + fieldset {
+  margin-top: 3rem;
+}
+
+.terms {
+  border-top: 1px solid var(--input-stroke);
+
+  .checkbox-wrapper {
+    margin-top: 2.5rem;
+  }
+}
