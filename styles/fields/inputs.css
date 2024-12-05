@@ -1,0 +1,41 @@
+label {
+  font: var(--body-sm);
+  color: var(--text-body);
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+  outline: 1px solid var(--brand-light);
+}
+
+input[type="radio"] {
+  appearance: none;
+}
+
+input {
+  &:invalid {
+    border: 0.125rem solid var(--danger);
+  }
+
+  & + small {
+    font: var(--text-sm);
+    display: inline-block;
+    margin-top: 0.25rem;
+  }
+
+  &[required] + .error {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font: var(--body-sm);
+    color: var(--danger);
+    margin-top: 0.5rem;
+  }
+
+  &:not(:focus):valid + .error {
+    display: none;
+  }
+}
