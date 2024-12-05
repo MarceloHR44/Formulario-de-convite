@@ -9,7 +9,7 @@
   & .file-name::before {
     display: inline-block;
     content: "Nenhum arquivo selecionado";
-    font: 400 1rem / normal var(--font-family-3);
+    font: var(--body-sm);
     color: var(--input-placeholder);
     margin-left: 0.75rem;
     margin-bottom: 0.75rem;

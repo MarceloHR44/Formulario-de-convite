@@ -7,18 +7,18 @@
 }
 
 main {
+
   overflow: auto;
-  
   & .main-container {
-    background-color: var(--shape-bady);
+    background-color: var(--shape-body);
     border-radius: 0.75rem;
     width: 50rem;
-    height: 130.6rem;
-    margin-top: 1.25;
+    height: 140.2rem;
+    margin-top: 1.25rem;
+  }
 
-    & h1 {
-      margin-bottom: 2.5rem;
-    }
+  & h1 {
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -33,16 +33,16 @@ aside {
     }
   }
 
-  & .aside-container {
+  & .aside-container{
     display: flex;
     justify-content: end;
   }
 
   & .bg-image {
-    background-image: url(../assets/images/bolo.svg);
+    background-image: url(../assets/images/Bolo.svg);
     border-radius: 0.75rem;
-    width: 25rem;
-    height: 97vh;
+    width: 30rem;
+    height: 96vh;
     background-size: cover;
     background-position: center;
     position: absolute;

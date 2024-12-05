@@ -28,7 +28,7 @@
     & label {
       border-radius: 0.5rem;
       background-color: #363b40;
-      font: 600 0.875rem/normal var(--font-family-3);
+      font: var(--body-xs);
     }
 
     & svg path {

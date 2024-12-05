@@ -1,5 +1,5 @@
 label{
-  font: 400 0.875rem/normal var(--font-family-3);
+  font: var(--body-sm);
   color: var(--text-body);
   display: block;
   margin-bottom: 12px
@@ -31,7 +31,7 @@ input {
     display: flex;
     align-items: center;
     gap: 0.25rem;
-    font: 400 0.75rem / normal var(--font-family-3);
+    font: var(--body-sm);
     color: var(--danger);
     margin-top: 0.5rem;
   }
